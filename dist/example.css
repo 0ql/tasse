@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: #e09387;
+	font-family: sans-serif;
+}
+
+.title {
+	font-size: 4rem;
+}
+

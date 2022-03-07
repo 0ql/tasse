@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="example.css" />
+  </head>
+  <body>
+    <div id="id1" class="">
+      <div id="id2" class="title">This is an epic title</div>
+      <div id="id3" class="ha">This is an epic</div>
+      <div id="id4" class="">click me</div>
+      <div id="id5" class="">
+        This is ideal for css Frameworkes like Tailwindcss, Windicss or Unocss
+      </div>
+    </div>
+    <script>
+      let el;
+      (() => {
+        let el = document.getElementById("id3");
+        el.innerText += " Subtitle!";
+      })();
+      (() => {
+        let el = document.getElementById("id4");
+        let count = 0;
+        el.onclick = function () {
+          count++;
+          el.innerText = count;
+        };
+      })();
+      (() => {
+        let el = document.getElementById("id5");
+        console.log(el);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+(
+	(
+		{title}
+		<This is an epic title!>
+	)
+	(
+		{ha}
+		<This is an epic>
+		[
+			el.innerText += " Subtitle!"
+		]
+	)
+	(
+		<click me>
+		[
+			let count = 0
+			el.onclick = function() {
+				count++
+				el.innerText = count
+			}
+		]
+	)
+	(
+		<This is ideal for css Frameworkes like Tailwindcss, Windicss or Unocss>
+		[
+			console.log(el)
+		]
+	)
+)
